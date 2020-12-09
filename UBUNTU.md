@@ -8,7 +8,7 @@
    sudo apt-get -y install python3 python3-venv # install python3 and virtualenv
    sudo apt-get -y install build-essential   # need for installing docker-compose
    sudo apt-get -y install python3-dev libxml2-dev libxslt-dev libffi-dev # need for installing docker-compose
-   htop  # check your vm config
+  htop  # check your vm config
    Crtl-c  # exit 
 ``` 
 ### install this repo and docker    
@@ -21,7 +21,7 @@ pip3 install wheel  # set for permissions purpose
 pip3 install ansible # install ansible 
 pip3 install requests # extra packages
 ansible --version # check the version number # should be the latest 2.9.9+ 
-ansible-playbook -i inventory install_docker_ubuntu.yml # run the playbook for installing docker
+ansible-playbook -i inventory_python3 install_docker_ubuntu.yml # run the playbook for installing docker
 ```
 Log out from your ssh session and log in again so all changes will take effect.  
 Type ``` docker ps``` as ubuntu user for checking if all is fine.   
