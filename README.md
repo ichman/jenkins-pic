@@ -11,15 +11,15 @@ Cette plateforme est disponible seulement sous Linux.
 
 How to proceed ?  
 First use this file and carry on with:     
-**if you are on Ubuntu 16.04 , read Ubuntu.md file first.**    
+**if you are on Ubuntu 20.04 , read Ubuntu.md file first.**   
+ * README.md 
  * IntellijIDEA.mnd  
  * FIRST_JOBS.md    
  * DEPLOYMENT.md 
  * PIPELINE_GUI.md
  * PIPELINE_SCRIPT.md  
  * JMETER.md  
- * SELENIUM.md  
- * PIPELINE_GUI.md  
+ * SELENIUM.md   
    
 Optional: DOCKER.md and UBUNTU.md
 
